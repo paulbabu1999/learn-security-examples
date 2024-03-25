@@ -1,0 +1,2 @@
+
+Tampering involves unauthorized changes to data. Submitting code as input poses a tampering risk, which can be mitigated by sanitizing input to remove potentially harmful elements. This violation primarily affects data integrity within the CIA (Confidentiality, Integrity, and Availability) triad.

@@ -1,3 +1,5 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
 Which CIA property does tampering violate?
 What additional security mechanisms can you incorporate?
+
+The vulnerability is allowing MongoDB queries as usernames, which can lead to injection attacks. Sanitizing the data prevents this by filtering out malicious code. Tampering primarily violates data integrity. Additional security measures include input validation, parameterized queries.

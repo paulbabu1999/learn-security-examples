@@ -1,1 +1,3 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+
+The vulnerability lies in exposing session IDs, which can be intercepted by attackers for unauthorized access (spoofing). The secure version prevents this by encrypting session data and using secure transmission protocols like HTTPS, making it difficult for attackers to intercept and misuse session IDs.
