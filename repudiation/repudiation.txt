@@ -1,2 +1,12 @@
 - Briefly explain the vulnerability and why the secure version is better at preventing repudiation than the insecure version.
 - What additional security mechanisms can you incorporate to prevent such attacks?
+
+
+Vulnerability: Repudiation occurs when users deny actions, causing disputes. Insecure systems lack comprehensive logging.
+
+Secure Solution: Robust logging records all user activities, establishing an audit trail that prevents users from denying their actions.
+
+Additional Security Mechanisms:
+
+Two-Factor Authentication
+Immutable Logs

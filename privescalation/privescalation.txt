@@ -1,0 +1,12 @@
+
+Privilege Escalation Due to Unused Session Management:
+
+Explanation:
+When session management is not utilized, attackers exploit this weakness to gain unauthorized access, escalating their privileges within the system.
+
+Secure Solution:
+Implementing robust session management ensures proper authentication and authorization throughout user sessions, preventing unauthorized privilege escalation.
+
+Additional Security Measures:
+
+Role-Based Access Control (RBAC)

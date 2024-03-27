@@ -1,2 +1,14 @@
 - Briefly explain the vulnerability and why the secure version prevents the vulnerability.
 - What additional security mechanisms can you incorporate to prevent such attacks?
+
+
+DoS Attack Vulnerability:
+Without a try-catch mechanism, a system is vulnerable to crashing when errors occur, making it susceptible to denial-of-service (DoS) attacks by overwhelming it with illegitimate traffic.
+
+Secure Version:
+Incorporates try-catch blocks to handle exceptions gracefully, preventing crashes and maintaining system stability even when errors occur, thus mitigating the risk of DoS attacks.
+
+Additional Security Measures:
+
+Rate Limiting
+DDoS Protection
